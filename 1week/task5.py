@@ -4,7 +4,7 @@ url: https://leetcode.com/problems/largest-number/description/
 """
 
 
-class Solution(object):
+class Solution:
     def largestNumber(self, nums):
         res = ""
         i = 0

@@ -4,7 +4,7 @@ url: https://leetcode.com/problems/integer-to-roman/description/
 """
 
 
-class Solution(object):
+class Solution:
     def intToRoman(self, num):
         res = ""
 

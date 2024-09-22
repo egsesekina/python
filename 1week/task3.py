@@ -6,7 +6,7 @@ url: https://leetcode.com/problems/letter-combinations-of-a-phone-number/descrip
 
 class Solution:
     def letterCombinations(self, digits):
-        if  len(digits)==0: return []
+        if len(digits) == 0: return []
         res = [""]
 
         dictionary = {
@@ -24,7 +24,7 @@ class Solution:
             tmp = []
             for letter in dictionary[int(d)]:
                 for r in res:
-                    tmp.append(r+letter)
+                    tmp.append(r + letter)
             res = tmp
 
         return res
